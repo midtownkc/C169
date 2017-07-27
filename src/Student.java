@@ -70,12 +70,12 @@ public class Student {
 	
 	public void print() {
 		System.out.println(
-				"Student ID: " + getStudentID() + 
-				"\tFirst Name: " + getFirstName() + 
-				"\tLast Name: " + getLastName() +
-				"\tEmail: " + getEmail() +
-				"\tAge: " + getAge() +
-				"\tGrades: " + getGrades());
+				getStudentID() + 
+				"\tFirst Name:" + getFirstName() + 
+				"\t" + "Last Name:" + getLastName() +
+				"\tEmail:\t" + getEmail() +
+				"\tAge:\t" + getAge() +
+				"\tGrades:\t" + getGrades()[0] + ", " + getGrades()[1] + ", " + getGrades()[2]);
 	}
 	// Frivolous Comment
 }
