@@ -9,7 +9,7 @@ public class Roster {
 		add("2", "Suzan", "Erickson", "Erickson_1990@gmailcom", 19, 91,72,85);
 		add("3", "Jack", "Napoli", "The_lawyer99yahoo.com", 19, 85,84,87);
 		add("4", "Erin", "Black", "Erin.black@comcast.net", 22, 91,98,82);
-		add("5", "Maxwell", "Frederickson", "mfred20@wgu.edu", 34, 99,97,100);
+		add("5", "Max", "Fred", "mfred20@wgu.edu", 34, 99,97,100);
 		print_all();
 		print_invalid_emails();
 		for (Student s : myClass) {
@@ -46,11 +46,9 @@ public class Roster {
 		}
 	}
 	
-	
 	public static void print_all() {
 		for (Student s : myClass)
 		{
-			System.out.println("Fuck");
 			s.print();
 		}
 	}
