@@ -1,0 +1,15 @@
+1	First Name:John	Last Name:Smith	Email:John1989@gmail.com	Age:20	Grades:{88, 79, 59}
+2	First Name:Suzan	Last Name:Erickson	Email:Erickson_1990@gmailcom	Age:19	Grades:{91, 72, 85}
+3	First Name:Jack	Last Name:Napoli	Email:The_lawyer99yahoo.com	Age:19	Grades:{85, 84, 87}
+4	First Name:Erin	Last Name:Black	Email:Erin.black@comcast.net	Age:22	Grades:{91, 98, 82}
+5	First Name:Maxwell	Last Name:Frederickson	Email:mfred20@wgu.edu	Age:34	Grades:{99, 97, 100}
+Invalid Email: Erickson_1990@gmailcom
+Invalid Email: The_lawyer99yahoo.com
+Avg for ID 1: 75
+Avg for ID 2: 82
+Avg for ID 3: 85
+Avg for ID 4: 90
+Avg for ID 5: 98
+Removed Student: 3
+No Student found with ID: 3
+

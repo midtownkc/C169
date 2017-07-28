@@ -6,10 +6,10 @@ public class Student {
 	private String lastName;
 	private String email;
 	private int age;
-	private double[] grades;
+	private int[] grades;
 	
 	//Constructor
-	public Student(String studentID, String firstName, String lastName, String email, int age, double[] grades) {
+	public Student(String studentID, String firstName, String lastName, String email, int age, int[] grades) {
 		setStudentID(studentID);
 		setFirstName(firstName);
 		setLastName(lastName);
@@ -39,7 +39,7 @@ public class Student {
 		return age;
 	}
 	
-	public double[] getGrades() {
+	public int[] getGrades() {
 		return grades;
 	}
 	
@@ -64,7 +64,7 @@ public class Student {
 		this.age = age;
 	}
 	
-	public void setGrades(double[] grades) {
+	public void setGrades(int[] grades) {
 		this.grades = grades;
 	}
 	
